@@ -1,0 +1,21 @@
+Scenarios:
+Andrew works in a grocery store. He needs help making sure his workers are doing what they need to do before clocking off from work each day. On Tuesday, Thursday, and Saturday, they need to mop the floors, but on Monday, Wednesday, Friday, and Sunday, they only need to sweep the floors. Right now, Andrew has no way to make sure the workers do this task before they clock out, so he needs to find a way to stop them from clocking out until the work is done. In Andrew’s scenario, the preferred approach would be to use an application designed to help workers easily see what needs to be done before anyone can leave.
+
+Caroline works at a fast food restaurant. She has a list of tasks that need to be completed every night before the store can close. The list includes: sweeping, moping, scrubbing floors, dishes, cleaning counters, stocking stores, etc. Some of these tasks are easier than others. For example, sweeping is easier than doing all the dishes created that night. Caroline needs to find a way to evenly divide the work so everything is fair for all the workers. Right now, the workers need to come to Caroline and ask her what she needs them to do and she has to accurately divide the work, without leaving any tasks out and making sure that everyone has the same amount of work. In Caroline’s scenario, she needs an application that assigns custom tasks and point values evenly among workers so they do not need to ask her what needs to be done and there is no dispute about whether or not the division of labor is even. 
+
+Hannah works at an animal clinic. At this clinic, they also have a list of tasks that need to be completed. These tasks include: sweeping, washing out the kennels, walking the dogs, etc. Similar to Caroline’s situation, some of these tasks are more difficult than others. Even the difficulty of walking dogs will vary from dog to dog. This is due to some dogs not walking on a leash or being animal aggressive or being human aggressive. Right now, some workers will inadvertently end up doing more work and more difficult work than the other employees. It is difficult to divide this work evenly for the same reasons as Caroline. A system would be beneficial to Hannah that would allow her to set point values to certain tasks and to dogs depending on their difficulty to walk or take care of. The system would also divide the work as evenly as possible. 
+
+User Stories:
+As an employee at a fast food restaurant, I need to divide tasks evenly among myself and other employees so that one person does not do more work than the others. I also need to make sure that the tasks are complete before a worker can clock out to ensure that they do not leave the work for other people to do.
+
+As an employee at a grocery store, I need to make sure all tasks are being completed every night and that the work is not divided unfairly among the workers. I also need to make sure that no one clocks out before the tasks are complete.
+
+As an employee at an animal clinic, I need to evenly divide the amount of work it takes to care for different dogs among all the other employees. I need to ensure that no dogs are skipped before anyone leaves.
+
+Feature List:
+Customizable employee names
+Customizable tasks
+Customizable task sizes (complexity and involvement)
+Even distribution of task sizes (each person gets the same amount of work points which equates to the same workload)
+If someone calls out, the manager should be able to take that employee out and the workload should be redistributed
+System should block employees from clocking out until their workload has been completed
