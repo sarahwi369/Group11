@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Task Manager 11
+	</title>
+</head>
+<body>
+
+	<p id="in">
+		<button id="i.button" class="button" onclick="clockIn()">
+			Clock In
+		</button>
+	</p>
+
+	<p id="out">
+		<button id="o.button" class="button" onclick="clockOut()">
+			Clock Out
+		</button>
+	</p>
+
+	<p id="logout">
+		<button id="l.button" class="button">
+			<a href="../login.html">
+				Logout
+			</a>
+		</button>
+	</p>
+
+	<script>
+		function getTime() {
+			var v = new Date();
+			var time = v.getHours() + ":" + ( "0" + v.getMinutes() ).slice(-2);
+			return time;
+		}
+		function clockOut() {
+			alert("Clock out at " + getTime());
+		}
+		function clockIn() {
+			alert("Clock in at " + getTime());
+		}
+	</script>
+
+</body>
+</html>

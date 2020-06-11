@@ -1,0 +1,22 @@
+p {
+	text-align: center;
+	font-size: 20px;
+}
+
+#difficulty {
+
+}
+
+.button {
+	padding: 16px 32px;
+	background-color: green;
+	border: none;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+
+}
+
+#cancel {
+	background-color: red;
+}
