@@ -17,12 +17,22 @@
 			Employee ID #: 
 		</label>
         <input type = "text" id = "ID"/>
-        <button type="button"> 
-        	<a href="./manager/menu.html">
-        		Sign In
-        	</a>
+        <button onclick="signIn()"> 
+        	Sign In
+    	</button>
+    	<button onclick="temp()">
+    		Sign In (worker)
     	</button>
     </p>
+
+    <script type="text/javascript">
+    	function signIn() {
+    		window.location.href="./manager/menu.html"
+    	}
+    	function temp() {
+    		window.location.href="./worker/menu.html";
+    	}
+    </script>>
 
 </body>
 </html>

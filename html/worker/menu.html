@@ -4,26 +4,25 @@
 	<title>
 		Task Manager 11
 	</title>
+	<link href="./menu.css" rel="stylesheet">
 </head>
 <body>
 
 	<p id="in">
-		<button id="i.button" class="button" onclick="clockIn()">
+		<button id="i.button" onclick="clockIn()">
 			Clock In
 		</button>
 	</p>
 
 	<p id="out">
-		<button id="o.button" class="button" onclick="clockOut()">
+		<button id="o.button" onclick="clockOut()">
 			Clock Out
 		</button>
 	</p>
 
 	<p id="logout">
-		<button id="l.button" class="button">
-			<a href="../login.html">
-				Logout
-			</a>
+		<button id="l.button" onclick="logout()">
+			Logout
 		</button>
 	</p>
 
@@ -38,6 +37,9 @@
 		}
 		function clockIn() {
 			alert("Clock in at " + getTime());
+		}
+		function logout() {
+			window.location.href="../login.html";
 		}
 	</script>
 
