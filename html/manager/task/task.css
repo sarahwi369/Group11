@@ -7,16 +7,35 @@ p {
 
 }
 
-.button {
-	padding: 16px 32px;
-	background-color: green;
-	border: none;
+button {
+	padding: 14px 28px;
 	font-size: 16px;
 	color: white;
 	cursor: pointer;
+}
 
+button:hover {
+	transition-duration: .15s;
 }
 
 #cancel {
 	background-color: red;
+	border: 2px solid red;
+}
+
+#cancel:hover {
+	color: red;
+	background-color: white;
+	border: 2px solid red;
+}
+
+#submit {
+	background-color: green;
+	border: 2px solid green;
+}
+
+#submit:hover {
+	color: green;
+	background-color: white;
+	border: 2px solid green;
 }
