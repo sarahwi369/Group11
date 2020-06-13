@@ -1,0 +1,10 @@
+#add {
+	background-color: green;
+	border: 2px solid green;
+}
+
+#add:hover {
+	border: 2px solid green;
+	background-color: white;
+	color: green;
+}

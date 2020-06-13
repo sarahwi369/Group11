@@ -4,35 +4,27 @@
 	<title>
 		Task Manager 11
 	</title>
-	<link href="./login.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./login.css">
+	<link rel="stylesheet" type="text/css" href="./default.css">
+	<script type="text/javascript" src="./login.js"></script>
 </head>
 <body>
 
 	<h1>
 		(Store) Login Portal
 	</h1>
-
-	<p id="Login">
-		<label>
-			Employee ID #: 
-		</label>
-        <input type = "text" id = "ID"/>
+	<div>
+        <input type = "text" id = "ID" placeholder="Employee #" />
+        
+        <br><br>
+        
         <button onclick="signIn()"> 
-        	Sign In
+        	Manager Login
     	</button>
     	<button onclick="temp()">
-    		Sign In (worker)
+    		Employee Login
     	</button>
-    </p>
-
-    <script type="text/javascript">
-    	function signIn() {
-    		window.location.href="./manager/menu.html"
-    	}
-    	function temp() {
-    		window.location.href="./worker/menu.html";
-    	}
-    </script>>
+    </div>  
 
 </body>
 </html>

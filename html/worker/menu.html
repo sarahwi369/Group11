@@ -4,9 +4,16 @@
 	<title>
 		Task Manager 11
 	</title>
-	<link href="./menu.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../default.css">
+	<script type="text/javascript" src="../manager/menu.js"></script>
 </head>
 <body>
+
+	<p id="view">
+		<button id="v.button" onclick="view()">
+			View Tasks
+		</button>
+	</p>
 
 	<p id="in">
 		<button id="i.button" onclick="clockIn()">
@@ -25,23 +32,6 @@
 			Logout
 		</button>
 	</p>
-
-	<script>
-		function getTime() {
-			var v = new Date();
-			var time = v.getHours() + ":" + ( "0" + v.getMinutes() ).slice(-2);
-			return time;
-		}
-		function clockOut() {
-			alert("Clock out at " + getTime());
-		}
-		function clockIn() {
-			alert("Clock in at " + getTime());
-		}
-		function logout() {
-			window.location.href="../login.html";
-		}
-	</script>
 
 </body>
 </html>

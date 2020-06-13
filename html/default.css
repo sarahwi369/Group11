@@ -1,0 +1,37 @@
+button {
+	width: 175px;
+	padding: 10px;
+	background-color: gray;
+	border: 2px solid gray;
+
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+button:hover {
+	transition-duration: .15s;
+	background-color: white;
+	color:black;
+	border: 2px solid gray;
+}
+
+div {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+input {
+	width: 353px;
+	padding: 10px;
+	border: 2px solid gray;
+	box-sizing: border-box;
+	font-size: 16px;
+	text-align: center;
+	color: gray;
+}

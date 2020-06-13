@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Task Manager 11
+	</title>
+	<link rel="stylesheet" type="text/css" href="../../default.css">
+	<link rel="stylesheet" type="text/css" href="./createtask.css">
+	
+	<script type="text/javascript" src="./createtask.js"></script>
+</head>
+<body>
+
+	<div>
+		<input type="text" name="task" placeholder="Task Name">
+		<select name="difficulty" id="difficulty">
+ 			<option value="0">Points</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+ 			<option value="3">3</option>
+ 			<option value="4">4</option>
+ 			<option value="5">5</option>
+ 			<option value="6">6</option>
+ 			<option value="7">7</option>
+ 			<option value="8">8</option>
+ 			<option value="9">9</option>
+ 			<option value="10">10</option>
+		</select>
+	</div>
+	<br>
+	<div>
+		<button id= "submit" onclick="add()">Submit</button>
+		<button id="cancel" onclick="sure()">Cancel</button>
+	</div>
+</body>
+</html>
