@@ -1,12 +1,3 @@
-function task() {
-	window.location.href="./task/taskmenu.html";
-}
-function view() {
-	window.location.href='./tasks/tasks.html';
-}
-function employee() {
-	window.location.href="./employee/manageemployee.html";
-}
 function logout() {
 	window.location.href="../login.html";
 }

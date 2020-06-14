@@ -5,39 +5,29 @@
 		Task Manager 11
 	</title>
 	<link rel="stylesheet" type="text/css" href="../default.css">
-	<script type="text/javascript" src="./menu.js"></script>
+	<script type="text/javascript" src="../assets/menu.js"></script>
+	<script type="text/javascript" src="./workermenu.js"></script>
 </head>
 <body>
 
-	<p id="task">
-		<button id="t.button" onclick="task()">
-			Task Menu
+	<h1 class="center">Employee Menu</h1>
+	<div class="center">
+		<button id="v.button" onclick="view()">
+			View Tasks
 		</button>
-	</p>
-
-	<p id="employee">
-		<button id="e.button" onclick="employee()">
-			Employee Menu
-		</button>
-	</p>
-
-	<p id="in">
+		<br>
 		<button id="i.button" onclick="clockIn()">
 			Clock In
 		</button>
-	</p>
-
-	<p id="out">
+		<br>
 		<button id="o.button" onclick="clockOut()">
 			Clock Out
 		</button>
-	</p>
-
-	<p id="logout">
+		<br>
 		<button id="l.button" onclick="logout()">
 			Logout
 		</button>
-	</p>
+	</div>
 
 </body>
 </html>

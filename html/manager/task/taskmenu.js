@@ -3,5 +3,5 @@ function add() {
 }
 
 function back() {
-	window.location.href= '../menu.html';
+	window.location.href= '../managermenu.html';
 }

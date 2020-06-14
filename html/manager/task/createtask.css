@@ -13,24 +13,3 @@ input {
 	background-color: gray;
 	outline: none;
 }
-#cancel {
-	background-color: red;
-	border: 2px solid red;
-}
-
-#cancel:hover {
-	color: red;
-	background-color: white;
-	border: 2px solid red;
-}
-
-#submit {
-	background-color: green;
-	border: 2px solid green;
-}
-
-#submit:hover {
-	color: green;
-	background-color: white;
-	border: 2px solid green;
-}

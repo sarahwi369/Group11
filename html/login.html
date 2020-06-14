@@ -4,27 +4,34 @@
 	<title>
 		Task Manager 11
 	</title>
-	<link rel="stylesheet" type="text/css" href="./login.css">
 	<link rel="stylesheet" type="text/css" href="./default.css">
+	<link rel="stylesheet" type="text/css" href="./login.css">
 	<script type="text/javascript" src="./login.js"></script>
 </head>
 <body>
 
-	<h1>
+	<h1 class="center">
 		(Store) Login Portal
 	</h1>
-	<div>
-        <input type = "text" id = "ID" placeholder="Employee #" />
-        
-        <br><br>
-        
-        <button onclick="signIn()"> 
+
+	<div class="center">
+		<img src="./assets/logo.jpg" id="logo">
+	</div>
+
+	<div class="container center">
+        <input type = "text" class="center" placeholder="Employee #" />
+
+        <br>
+
+        <button onclick="MsignIn()"> 
         	Manager Login
     	</button>
-    	<button onclick="temp()">
+    	<button onclick="WsignIn()">
     		Employee Login
     	</button>
     </div>  
+
+    <hr>
 
 </body>
 </html>

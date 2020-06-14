@@ -4,20 +4,25 @@
 	<title>
 		Task Manager 11
 	</title>
-	<link rel="stylesheet" type="text/css" href="./addemployee.css">
 	<link rel="stylesheet" type="text/css" href="../../default.css">
+	<link rel="stylesheet" type="text/css" href="./addemployee.css">
 	<script type="text/javascript" src="./addemployee.js"></script>
 	<script src="../../js/FileSaver.js"></script>
 </head>
 <body>
 	
-	<div>
+	<div class="center">
+		<h1>New Employee</h1>
+		<img src="../../assets/logo.jpg" style="width: 150px">
+	</div>
+
+	<div class="center">
 		<input type = "text" id="userinput" placeholder="Employee Name" />
 		<br><br>
 		<input type = "text" placeholder="Employee #" />
 	</div>
 
-	<p>
+	<div class="center">
 		<button id="submit" onclick="save()">
 			Submit
 		</button>
@@ -25,7 +30,7 @@
 			Cancel
 		</button>
 
-	</p>
+	</div>
 
 </body>
 </html>

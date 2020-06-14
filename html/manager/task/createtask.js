@@ -3,7 +3,7 @@ function add() {
 
 	if (choice) {
 		alert("Task added!");
-		window.location.href = '../menu.html';
+		window.location.href = '../managermenu.html';
 	}
 }
 
@@ -11,6 +11,6 @@ function sure() {
 	var choice = confirm("Are you sure you wish to quit?");
 
 	if (choice) {
-		window.location.href = '../menu.html';
+		window.location.href = '../managermenu.html';
 	}
 }

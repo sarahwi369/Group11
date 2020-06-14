@@ -1,20 +1,4 @@
-#cancel {
-	background-color: red;
-	border: 2px solid red;
+img {
+	width: 150px;
+	margin-bottom: 25px;
 }
-
-#cancel:hover {
-	color: red;
-	background-color: white;
-	border: 2px solid red;
-}
-
-#submit {
-	background-color: green;
-	border: 2px solid green;
-}
-
-#submit:hover {
-	color: green;
-	background-color: white;
-	border: 2px solid green;

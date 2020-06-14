@@ -1,7 +1,7 @@
-function signIn() {
-	window.location.href="./manager/menu.html"
+function MsignIn() {
+	window.location.href="./manager/managermenu.html"
 }
 
-function temp() {
-  	window.location.href="./worker/menu.html";
+function WsignIn() {
+  	window.location.href="./worker/workermenu.html";
 }

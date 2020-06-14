@@ -3,11 +3,36 @@
 <head>
 	<title>Task Manager 11</title>
 	<link rel="stylesheet" type="text/css" href="../../default.css">
+	<link rel="stylesheet" type="text/css" href="./taskmenu.css">
 	<script type="text/javascript" src="./taskmenu.js"></script>
 </head>
 <body>
 
-	<div>
+	<div class="center">
+		<table>
+			<tr>
+				<th>Task</th>
+				<th>Points</th>
+			</tr>
+
+			<tr>
+				<td class="name">Sweeping</td>
+				<td>4</td>
+			</tr>
+
+			<tr>
+				<td class="name">Prep</td>
+				<td>4</td>
+			</tr>
+
+			<tr>
+				<td class="name">Clean Sinks</td>
+				<td>4</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="center">
 		<button id="main" onclick="back()">Main Menu</button>
 		<button id="add" onclick="add()">Add Task</button>
 	</div>
