@@ -5,18 +5,20 @@ table {
 	margin-right: auto;
 }
 
- th {
+th {
  	padding: 10px;
+ 	text-align: left;
  }
 
 tr, td {
+	text-align: left;
 	border: 1px solid gray;
 	font-size: 20px;
 	color: black;
 	padding: 5px;
+	padding-right: 100px;
 }
 
-a {
-	text-decoration: none;
-	text-decoration-color: black;
+img {
+	width: 150px;
 }
