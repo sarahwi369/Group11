@@ -19,3 +19,7 @@ tr, td {
 .name {
 	text-align: left;
 }
+
+.signoff {
+	text-align: right;
+}
