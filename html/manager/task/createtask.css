@@ -3,13 +3,12 @@ input {
 }
 
 #difficulty {
-
 	padding: 10px;
 	border: 2px solid gray;
 	box-sizing: border-box;
 	font-size: 15px;
 	text-align: center;
-	color: white;
-	background-color: gray;
+	color: black;
+	background-color: white;
 	outline: none;
 }
