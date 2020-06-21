@@ -1,0 +1,16 @@
+#pic {
+	width: 250px;
+}
+
+.info {
+	float: left;
+	width: 55%;
+}
+
+.pic {
+	float: left;
+	width: 20%;
+}
+button {
+	width: 100%;
+}

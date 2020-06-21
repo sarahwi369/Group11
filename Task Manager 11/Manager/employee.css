@@ -4,28 +4,14 @@ a {
 	text-decoration-line: none;
 }
 
+caption {
+	font-weight: bold;
+}
+
 thead {
-	height: relative;
+	font-weight: bold;
 }
 
-#employeein {
-	display: table-cell;
-	width: 50%;
-}
-
-#requests {
-	display: table-cell;
-	width: 50%;
-}
-
-.table {
-	display: table;
-	
-}
-.tablecell {
-
-}
-
-#employeeout {
-	
+button {
+	float: right;
 }

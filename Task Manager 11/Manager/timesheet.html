@@ -4,12 +4,14 @@
 	<title>Task Manager 11</title>
 	<link rel="stylesheet" type="text/css" href="../sidebar.css">
 	<link rel="stylesheet" type="text/css" href="../table.css">
+	<link rel="stylesheet" type="text/css" href="../input.css">
 	<script type="text/javascript" src="../timesheet.js"></script>
 </head>
 <body>
 
 	<div class="sidenav">
 		<a href="./managermenu.html">Home</a>
+		<a href="./inbox.html">Inbox</a>
 		<a href="./taskmanager.html">Task Manager</a>
 		<a href="./employeemanager.html">Employee Manager</a>
 		<a href="./timesheet.html">Timesheet</a>
@@ -17,10 +19,10 @@
 	</div>
 
 	<div class="main">
-		<button onclick="clockIn()">Clock In</button>
-		<button onclick="clockOut()">Clock Out</button>
+		<button onclick="eclockIn()">Clock In</button>
+		<button onclick="no()">Clock Out</button>
 	</div>
-
+	<br>
 	<div class="main">
 		<table>
 			<thead>
@@ -28,9 +30,7 @@
 					<td>Date</td>
 					<td>Time In</td>
 					<td>Time Out</td>
-					<td>Hours Workered</td>
-					<td>Points Completed</td>
-					<td>Points Incomplete</td>
+					<td>Hours Worked</td>
 				</tr>
 			</thead>
 
@@ -40,8 +40,6 @@
 					<td>8:00</td>
 					<td>16:30</td>
 					<td>8:30</td>
-					<td>20</td>
-					<td>0</td>
 				</tr>
 
 				<tr>
@@ -49,8 +47,7 @@
 					<td>8:00</td>
 					<td>16:30</td>
 					<td>8:30</td>
-					<td>20</td>
-					<td>0</td>
+				
 				</tr>
 
 				<tr>
@@ -58,8 +55,7 @@
 					<td>8:00</td>
 					<td>16:30</td>
 					<td>8:30</td>
-					<td>20</td>
-					<td>0</td>
+					
 				</tr>
 
 				<tr>
@@ -67,8 +63,7 @@
 					<td>8:00</td>
 					<td>16:30</td>
 					<td>8:30</td>
-					<td>20</td>
-					<td>0</td>
+					
 				</tr>
 			</tbody>
 		</table>

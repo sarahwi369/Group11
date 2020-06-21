@@ -4,6 +4,7 @@
 	<title>Task Manager 11</title>
 	<link rel="stylesheet" type="text/css" href="../sidebar.css">
 	<link rel="stylesheet" type="text/css" href="../table.css">
+	<link rel="stylesheet" type="text/css" href="../input.css">
 	<link rel="stylesheet" type="text/css" href="./employee.css">
 	
 </head>
@@ -11,13 +12,90 @@
 
 	<div class="sidenav">
 		<a href="./managermenu.html">Home</a>
+		<a href="./inbox.html">Inbox</a>
 		<a href="./taskmanager.html">Task Manager</a>
 		<a href="./employeemanager.html">Employee Manager</a>
 		<a href="./timesheet.html">Timesheet</a>
-		<a href="#logout">Logout</a>
+		<a href="../login.html">Logout</a>
 	</div>
 
 	<div class="main table">
+		<table class="tablecell">
+			<caption>Pending Requests</caption>
+			<thead>
+				<tr>
+					<td>Task</td>
+					<td>Employee</td>
+					<td>Time Requested</td>
+					<td>Decision</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Sweeping</td>
+					<td>Sarah</td>
+					<td>12:00</td>
+					<td>	
+						<select>
+							<option>------</option>
+							<option>Approve</option>
+							<option>Deny</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Sweeping</td>
+					<td>Sarah</td>
+					<td>12:00</td>
+					<td>
+						<select>
+							<option>------</option>
+							<option>Approve</option>
+							<option>Deny</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Sweeping</td>
+					<td>Sarah</td>
+					<td>12:00</td>
+					<td>
+						<select>
+							<option>------</option>
+							<option>Approve</option>
+							<option>Deny</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Sweeping</td>
+					<td>Sarah</td>
+					<td>12:00</td>
+					<td>
+						<select>
+							<option>------</option>
+							<option>Approve</option>
+							<option>Deny</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Sweeping</td>
+					<td>Sarah</td>
+					<td>12:00</td>
+					<td>
+						<select>
+							<option>------</option>
+							<option>Approve</option>
+							<option>Deny</option>
+						</select>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<button>Submit</button>
+		<br>
 		<table class="tablecell" id="employeein">
 			<caption>Employees In</caption>
 			<thead>
@@ -51,52 +129,9 @@
 				</tr>
 			</tbody>
 		</table>
-		<table class="tablecell">
-			<caption>Pending Requests</caption>
-			<thead>
-				<tr>
-					<td>Task</td>
-					<td>Employee</td>
-					<td>Time Requested</td>
-					<td>Decision</td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Sweeping</td>
-					<td>Sarah</td>
-					<td>12:00</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>Sweeping</td>
-					<td>Sarah</td>
-					<td>12:00</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>Sweeping</td>
-					<td>Sarah</td>
-					<td>12:00</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>Sweeping</td>
-					<td>Sarah</td>
-					<td>12:00</td>
-					<td></td>
-				</tr>
-				<tr>
-					<td>Sweeping</td>
-					<td>Sarah</td>
-					<td>12:00</td>
-					<td></td>
-				</tr>
-			</tbody>
-		</table>
 	</div>
 
-	<hr>
+	<br>
 
 	<div class="main">
 		<table class="tablecell" id="employeeout">

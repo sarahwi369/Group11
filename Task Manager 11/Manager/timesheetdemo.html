@@ -10,16 +10,17 @@
 <body>
 
 	<div class="sidenav">
-		<a href="./employeemenu.html">Home</a>
+		<a href="./managermenu.html">Home</a>
 		<a href="./inbox.html">Inbox</a>
-		<a href="./tasklist.html">Task Menu</a>
+		<a href="./taskmanager.html">Task Manager</a>
+		<a href="./employeemanager.html">Employee Manager</a>
 		<a href="./timesheet.html">Timesheet</a>
 		<a href="../login.html">Logout</a>
 	</div>
 
 	<div class="main">
-		<button onclick="eclockIn()">Clock In</button>
-		<button onclick="no()">Clock Out</button>
+		<button onclick="no2()">Clock In</button>
+		<button onclick="eclockOut()">Clock Out</button>
 	</div>
 	<br>
 	<div class="main">
@@ -30,19 +31,28 @@
 					<td>Time In</td>
 					<td>Time Out</td>
 					<td>Hours Worked</td>
-					<td>Points Completed</td>
-					<td>Points Incomplete</td>
+					
 				</tr>
 			</thead>
 
 			<tbody>
 				<tr>
+					<td>6 / 21 / 2020</td>
+					<td id="timeIn">
+						<script type="text/javascript">
+							document.getElementById("timeIn").innerHTML = getTime();
+						</script>
+					</td>
+					<td id="timeOut"> </td>
+					<td id="tspent"> </td>
+				
+				</tr>
+				<tr>
 					<td>6 / 20 / 2020</td>
 					<td>8:00</td>
 					<td>16:30</td>
 					<td>8:30</td>
-					<td>20</td>
-					<td>0</td>
+					
 				</tr>
 
 				<tr>
@@ -50,8 +60,7 @@
 					<td>8:00</td>
 					<td>16:30</td>
 					<td>8:30</td>
-					<td>20</td>
-					<td>0</td>
+				
 				</tr>
 
 				<tr>
@@ -59,8 +68,7 @@
 					<td>8:00</td>
 					<td>16:30</td>
 					<td>8:30</td>
-					<td>20</td>
-					<td>0</td>
+					
 				</tr>
 
 				<tr>
@@ -68,8 +76,7 @@
 					<td>8:00</td>
 					<td>16:30</td>
 					<td>8:30</td>
-					<td>20</td>
-					<td>0</td>
+					
 				</tr>
 			</tbody>
 		</table>

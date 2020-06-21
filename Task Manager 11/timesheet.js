@@ -8,10 +8,11 @@ function eclockOut() {
 	var des = confirm("Your tasks are not completed. Clock out anyway?");
 	if(des) {
 		clockOut();
+		document.getElementById("timeOut").innerHTML = getTime();
 		document.getElementById("tspent").innerHTML = "1 minute";
 		document.getElementById("ipoints").innerHTML = "13";
 		document.getElementById("cpoints").innerHTML = "0";
-		document.getElementById("timeOut").innerHTML = getTime();
+		
 	}
 	else {
 		var des2 = confirm("Would you like to view your tasks?");

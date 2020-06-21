@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="../sidebar.css">
 	<link rel="stylesheet" type="text/css" href="../table.css">
 	<link rel="stylesheet" type="text/css" href="../input.css">
-	<link rel="stylesheet" type="text/css" href="../menu.css">
+	<script type="text/javascript" src="./inbox.js"></script>
 </head>
 <body>
 
@@ -18,41 +18,27 @@
 		<a href="../login.html">Logout</a>
 	</div>
 
-	<h1 class="main">Eddy's Profile</h1>
-
-	<div class="main pic">
-		<img id="pic" src="../assets/profile.jpg">
-	</div>
-
-	<div class="main info">
-		<table >
+	<div class="main">
+		
+		<table>
 			<tr>
-				<th>Time Employed</th>
-				<td>1 year 1 month 1 day</td>
+				<th>Sender</th>
+				<td>Sarah</td>
 			</tr>
 			<tr>
-				<th>Job Title</th>
-				<td>Manager</td>
+				<th>Subject</th>
+				<td>Time off request</td>
 			</tr>
 			<tr>
-				<th>PTO Accrued</th>
-				<td>10 days</td>
+				<th>Message</th>
+				<td>
+					Hey this is Sarah I need 6/25/2020 off to go to ikea
+					<br><br><br><br><br><br><br><br>
+				</td>
 			</tr>
 		</table>
+
 	</div>
-
-	<div class="main">
-
-		<button onclick="inbox()">You Have 5 New Inbox Message</button>
-		
-	</div>
-
-	<script type="text/javascript">
-		function inbox() {
-			window.location.href='./inbox.html';
-		}
-	</script>
-
 
 </body>
 </html>

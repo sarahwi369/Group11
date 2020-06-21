@@ -1,0 +1,16 @@
+.message {
+	cursor: pointer;
+}
+
+caption {
+	font-weight: bold;
+}
+
+input {
+	width: 100%;
+	font-size: 20px;
+}
+
+#body {
+	height: 300px;
+}
