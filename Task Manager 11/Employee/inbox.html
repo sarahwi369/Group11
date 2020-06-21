@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task Manager 11</title>
+	<link rel="stylesheet" type="text/css" href="../sidebar.css">
+	<link rel="stylesheet" type="text/css" href="../table.css">
+	<link rel="stylesheet" type="text/css" href="../input.css">
+	<link rel="stylesheet" type="text/css" href="./inbox.css">
+	<script type="text/javascript" src="./inbox.js"></script>
+</head>
+<body>
+
+	<div class="sidenav">
+		<a href="./employeemenu.html">Home</a>
+		<a href="./inbox.html">Inbox</a>
+		<a href="./tasklist.html">Task Menu</a>
+		<a href="./timesheet.html">Timesheet</a>
+		<a href="../login.html">Logout</a>
+	</div>
+
+	<div class="main">
+		<button onclick="create()">Create Message</button>
+		<table>
+			<caption>Inbox</caption>
+			<thead>
+			<tr>
+				<th>Sender</th>
+				<th>Subject</th>
+				<th>Time</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="message" onclick="message()">Eddy</td>
+				<td>Time off request</td>
+				<td>12:00pm</td>
+			</tr>
+			<tr>
+				<td class="message" onclick="message()">Wes</td>
+				<td>What's up</td>
+				<td>6/20/2020</td>
+			</tr>
+			<tr>
+				<td class="message" onclick="message()">Alex</td>
+				<td>I lost my wallet in the trash compactor</td>
+				<td>6/20/2020</td>
+			</tr>
+			<tr>
+				<td class="message" onclick="message()">Eddy</td>
+				<td>Time off request</td>
+				<td>6/20/2020</td>
+			</tr>
+			<tr>
+				<td class="message" onclick="message()">Eddy</td>
+				<td>Time off request</td>
+				<td>6/20/2020</td>
+			</tr>
+		</tbody>
+		</table>
+
+	</div>
+
+</body>
+</html>

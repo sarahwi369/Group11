@@ -4,6 +4,9 @@
 	<title>Task Manager 11</title>
 	<link rel="stylesheet" type="text/css" href="../sidebar.css">
 	<link rel="stylesheet" type="text/css" href="../table.css">
+	<link rel="stylesheet" type="text/css" href="../input.css">
+	<link rel="stylesheet" type="text/css" href="./tasklist.css">
+	<script type="text/javascript" src="./task.js"></script>
 </head>
 <body>
 
@@ -23,22 +26,26 @@
 				<tr>
 					<td>Task Name</td>
 					<td>Points</td>
+					<td id="col">Select</td>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td class="name">Prep</td>
 					<td>5</td>
+					<td><input type="radio" name="yours"></td>
 				</tr>
 
 				<tr>
 					<td class="name">Wipe Down Tables</td>
 					<td>2</td>	
+					<td><input type="radio" name="yours"></td>
 				</tr>
 
 				<tr>
 					<td class="name">Empty Trash Cans</td>
 					<td>3</td>	
+					<td><input type="radio" name="yours"></td>
 				</tr>
 			</tbody>
 		</table>
@@ -49,22 +56,26 @@
 				<tr>
 					<td>Task Name</td>
 					<td>Points</td>
+					<td id="col">Select</td>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td class="name">Prep</td>
 					<td>5</td>
+					<td><input type="radio" name="other"></td>
 				</tr>
 
 				<tr>
 					<td class="name">Wipe Down Tables</td>
 					<td>2</td>	
+					<td><input type="radio" name="other"></td>
 				</tr>
 
 				<tr>
 					<td class="name">Empty Trash Cans</td>
 					<td>3</td>	
+					<td><input type="radio" name="other"></td>
 				</tr>
 			</tbody>
 		</table>
@@ -75,27 +86,31 @@
 				<tr>
 					<td>Task Name</td>
 					<td>Points</td>
+					<td id="col">Select</td>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td class="name">Prep</td>
 					<td>5</td>
+					<td><input type="radio" name="other"></td>
 				</tr>
 
 				<tr>
 					<td class="name">Wipe Down Tables</td>
 					<td>2</td>	
+					<td><input type="radio" name="other"></td>
 				</tr>
 
 				<tr>
 					<td class="name">Empty Trash Cans</td>
 					<td>3</td>	
+					<td><input type="radio" name="other"></td>
 				</tr>
 			</tbody>
 		</table>
 
-
+		<button onclick="submit()">Submit</button>
 		
 	</div>
 

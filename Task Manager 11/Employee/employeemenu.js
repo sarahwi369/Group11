@@ -1,5 +1,5 @@
 function tswitch() {
-	window.location.href='./tswitch.html';
+	window.location.href='./tswitchr.html';
 }
 
 function inbox() {

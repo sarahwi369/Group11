@@ -14,3 +14,12 @@ function change_text4(){
 function tswitch() {
 	window.location.href='./tswitch.html';
 }
+
+function tswitchr() {
+	window.location.href='./tswitchr.html';
+}
+
+function submit() {
+	alert("submitted");
+	window.location.href="./tasklist.html";
+}
