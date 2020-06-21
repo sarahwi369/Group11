@@ -1,3 +1,7 @@
-.incomplete {
-	background-color: red;
+.task {
+	cursor: pointer;
+}
+
+button {
+	width: 100%
 }

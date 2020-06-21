@@ -3,3 +3,29 @@ a {
 	color: black;
 	text-decoration-line: none;
 }
+
+thead {
+	height: relative;
+}
+
+#employeein {
+	display: table-cell;
+	width: 50%;
+}
+
+#requests {
+	display: table-cell;
+	width: 50%;
+}
+
+.table {
+	display: table;
+	
+}
+.tablecell {
+
+}
+
+#employeeout {
+	
+}
