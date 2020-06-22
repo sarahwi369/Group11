@@ -44,7 +44,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td>Sweeping</td>
+					<td>Prep</td>
 					<td>Wes</td>
 					<td>12:00</td>
 					<td>
@@ -56,7 +56,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td>Sweeping</td>
+					<td>Clean Sinks</td>
 					<td>Alex</td>
 					<td>12:00</td>
 					<td>
@@ -68,7 +68,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td>Sweeping</td>
+					<td>Dishes</td>
 					<td>Heath</td>
 					<td>12:00</td>
 					<td>
@@ -80,7 +80,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td>Sweeping</td>
+					<td>Mopping</td>
 					<td>Almamy</td>
 					<td>12:00</td>
 					<td>
@@ -115,17 +115,17 @@
 				</tr>
 
 				<tr>
-					<td> <a href="./employeeprofile/alex.html">Alex</a></td>
+					<td> <a href="./profiles/alex.html">Alex</a></td>
 					<td>8</td>
 					<td>8</td>
 					<td>0</td>
 				</tr>
 
 				<tr>
-					<td><a href="./employeeprofile/wes.html">Wes</a></td>
+					<td><a href="./profiles/wes.html">Wes</a></td>
 					<td>10</td>
-					<td>0</td>
-					<td>10</td>
+					<td>8</td>
+					<td>2</td>
 				</tr>
 			</tbody>
 		</table>
@@ -145,23 +145,37 @@
 			<tbody>
 				<tr>
 					<td>Sarah</td>
-					<td>1234567890</td>
+					<td>1234</td>
 				</tr>
 				<tr>
 					<td>Heath</td>
-					<td>1234567890</td>
+					<td>4567</td>
 				</tr>
 				<tr>
 					<td>Wes</td>
-					<td>1234567890</td>
+					<td>2345</td>
 				</tr>
 				<tr>
 					<td>Alex</td>
-					<td>1234567890</td>
+					<td>7890</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
+
+<button onclick="add_employee()">Add Employee</button>
+<script type="text/javascript">
+	function add_employee() {
+		window.location.href="./addemployee.html";
+	}
+</script>
+	
+	<script type="text/javascript">
+		function submit_decision() {
+			alert('Submitted');
+			window.location.href="employeemanager.html";
+		}
+	</script>
 
 </body>
 </html>

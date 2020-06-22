@@ -20,6 +20,6 @@ function tswitchr() {
 }
 
 function submit() {
-	alert("submitted");
+	alert("Submitted");
 	window.location.href="./tasklist.html";
 }
