@@ -5,6 +5,19 @@
 	<link rel="stylesheet" type="text/css" href="../../sidebar.css">
 	<link rel="stylesheet" type="text/css" href="../../table.css">
 	<link rel="stylesheet" type="text/css" href="./profile.css">
+	<link rel="stylesheet" type="text/css" href="../../input.css">
+	<style type="text/css">
+		#difficulty {
+			padding: 10px;
+			border: 2px solid gray;
+			box-sizing: border-box;
+			font-size: 15px;
+			text-align: center;
+			color: black;
+			background-color: white;
+			outline: none;
+		}
+	</style>
 
 </head>
 <body>
@@ -61,7 +74,20 @@
 				<td>2 days</td>
 			</tr>
 		</table>
+		<div>
+			<button onclick="remove()" id="remove">Remove Employee</button>
+		</div>
 	</div>
+
+	<script type="text/javascript">
+		function remove() {
+			var des = confirm("Are you sure you want to delete this employee?");
+			if(des) {
+				alert("Employee deleted");
+				window.location.href="../employeemanager.html";
+			}
+		}
+	</script>
 
 </body>
 </html>

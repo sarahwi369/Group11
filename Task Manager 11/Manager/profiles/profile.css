@@ -16,3 +16,21 @@
 .table {
 	display: table;
 }
+
+a {
+	display: block;
+	color: black;
+	text-decoration-line: none;
+}
+
+caption {
+	font-weight: bold;
+}
+
+thead {
+	font-weight: bold;
+}
+
+button {
+	float: right;
+}
